@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(189, 189, 189);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,8">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_superior">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>42</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QtFrame{
+background-color:rgb(0,0,0)
+}
+
+QPushButton{
+background-color:#000000ff;
+border-radius:20px;
+}
+
+QPushButton:hover{
+background-color: rgb(61,61,61);
+border-radius:20px;
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_Proyecto_Estadistica">
+            <property name="font">
+             <font>
+              <pointsize>18</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>PROYECTO ESTADÍSTICA</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_contenido">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QFrame" name="frame_menu">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>0</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QFrame{
+background-color:rgb(0, 204, 204);
+}
+
+QPushButton{
+background-color:rgb(61,61,61);
+border-top-left-radius:20px;
+border-bottom-left-radius:20px;
+color:rgb(255,255,255);
+font 77 10pt &quot;Arial Black&quot;;
+}
+
+QPushButton:hover{
+background-color: white;
+border-top-left-radius:20px;
+border-bottom-left-radius:20px;
+color: rgb(0,0,0);
+font 77 10pt &quot;Arial Black&quot;;
+}</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QPushButton" name="pushButton_base_de_datos">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string> Base de Datos</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>1420398.png</normaloff>1420398.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_calculos">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Cálculos</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>1420398.png</normaloff>1420398.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_grafica">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Gráfica</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>1420398.png</normaloff>1420398.png</iconset>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_pagina">
+            <property name="styleSheet">
+             <string notr="true">QFrame{
+background-color:rgb(255, 255, 255);
+}
+
+QLabel{
+font: 87 14pt &quot;Arial Black&quot;;
+background-color:#000000ff;
+color:rgb(61,61,61);
+border:0px solid #14C8DC;
+}
+
+QLineEdit{
+border:0px;
+color: rgb(0, 0, 0);
+border-bottom:2px solid rgb(61,61,61);
+font: 75 14pt &quot;Times New Roman&quot;;
+}
+
+QPushButton{
+background-color: rgb(61, 61, 61);
+border-radius:15px;
+color: rgb(255,255,255);
+font: 77 12pt &quot;Arial Black&quot;;
+}
+
+QPushButton:hover{
+background-color: rgb(255, 255, 255);
+border-radius:15px;
+color: rgb(0,0,0);
+font: 77 12pt &quot;Arial Black&quot;;
+}
+
+QTableWidget{
+background-color: rgb(255, 255, 255);
+color: rgb(0,0,0);
+grindline-color:rgb(0, 204, 204);
+font-size: 12pt;
+color: #000000;
+}
+
+QHeaderView::section{
+background-color:rgb(0, 204, 204);
+border:1px solid rgb(0,0,0);
+font-size: 12pt;
+}
+
+QTableWidget QTableCornerButton::section{
+background-color: rgb(0, 0, 0);
+border:1px solid rgb(0,0,0);
+}
+
+QComboBox {
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 5px;
+    padding: 1px 18px 1px 3px;
+    min-width: 8em;
+    background-color: rgb(61, 61, 61);
+    color: rgb(255, 255, 255);
+    font: 75 12pt &quot;Arial Black&quot;;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+
+    border-left-width: 1px;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 #f6f7fa, stop:1 #dadbde);
+}
+
+QComboBox QAbstractItemView {
+    border: 1px solid rgb(61, 61, 61);
+    selection-background-color: rgb(61, 61, 61);
+    background-color: rgb(172, 176, 175);
+    color: rgb(255, 255, 255);
+    font-size: 12pt;
+}
+
+
+</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>1</number>
+             </property>
+             <property name="topMargin">
+              <number>1</number>
+             </property>
+             <property name="rightMargin">
+              <number>1</number>
+             </property>
+             <property name="bottomMargin">
+              <number>1</number>
+             </property>
+             <item>
+              <widget class="QStackedWidget" name="stackedWidget_paginas">
+               <property name="currentIndex">
+                <number>0</number>
+               </property>
+               <widget class="QWidget" name="page_base_de_datos">
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout">
+                   <item>
+                    <widget class="QLabel" name="subir_archivo">
+                     <property name="text">
+                      <string>Subir archivo .csv</string>
+                     </property>
+                     <property name="alignment">
+                      <set>Qt::AlignCenter</set>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_subir_archivo">
+                     <property name="minimumSize">
+                      <size>
+                       <width>120</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Subir archivo..</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="page_calculos">
+                <widget class="QWidget" name="layoutWidget">
+                 <property name="geometry">
+                  <rect>
+                   <x>15</x>
+                   <y>20</y>
+                   <width>521</width>
+                   <height>461</height>
+                  </rect>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_5">
+                  <item>
+                   <widget class="QLabel" name="titulo_calculos">
+                    <property name="font">
+                     <font>
+                      <family>Arial Black</family>
+                      <pointsize>14</pointsize>
+                      <weight>10</weight>
+                      <italic>false</italic>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Cálculos estadísticos</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QTableWidget" name="tableWidget_resultados">
+                    <column>
+                     <property name="text">
+                      <string>Media</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Moda</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Mediana</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Rango</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Desviación est.</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Varianza</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Cuartiles</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Percentiles</string>
+                     </property>
+                    </column>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="page_grafica">
+                <layout class="QHBoxLayout" name="horizontalLayout_4">
+                 <item>
+                  <widget class="QFrame" name="frame_grafica">
+                   <property name="styleSheet">
+                    <string notr="true">border-radius:20px;</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_8" stretch="1,5">
+                    <item>
+                     <widget class="QLabel" name="titulo_grafica">
+                      <property name="text">
+                       <string>Gráfica</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_grafica"/>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="imagenes.qrc"/>
+ </resources>
+ <connections/>
+</ui>
